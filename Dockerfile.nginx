@@ -1,0 +1,3 @@
+FROM nginx
+COPY ./2133_moso_interior/ /usr/share/nginx/html
+EXPOSE 80
